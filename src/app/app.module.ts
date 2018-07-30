@@ -9,6 +9,9 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { BreadcrumbsComponent } from './components/shared/breadcrumbs/breadcrumbs.component';
 import { NopagefoundComponent } from './components/shared/nopagefound/nopagefound.component';
 import { HeaderComponent } from './components/shared/header/header.component';
+import { APP_ROUTES } from './app.route';
+import { PagesComponent } from './components/pages/pages.component';
+
 
 
 @NgModule({
@@ -20,10 +23,12 @@ import { HeaderComponent } from './components/shared/header/header.component';
     HomeComponent,
     BreadcrumbsComponent,
     NopagefoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    PagesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]
