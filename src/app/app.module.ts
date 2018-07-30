@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { BreadcrumbsComponent } from './components/shared/breadcrumbs/breadcrumbs.component';
 import { NopagefoundComponent } from './components/shared/nopagefound/nopagefound.component';
+import { HeaderComponent } from './components/shared/header/header.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NopagefoundComponent } from './components/shared/nopagefound/nopagefoun
     LoginComponent,
     HomeComponent,
     BreadcrumbsComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
