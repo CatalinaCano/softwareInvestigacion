@@ -6,6 +6,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { BreadcrumbsComponent } from './components/shared/breadcrumbs/breadcrumbs.component';
+import { NopagefoundComponent } from './components/shared/nopagefound/nopagefound.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { HomeComponent } from './components/pages/home/home.component';
     NavbarComponent,
     SidebarComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    BreadcrumbsComponent,
+    NopagefoundComponent
   ],
   imports: [
     BrowserModule
